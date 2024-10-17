@@ -1,0 +1,21 @@
+{
+  "name": "hw_qa.guru_api_1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "allureGenerate": "allure generate --clean",
+    "allureOpen": "allure open",
+    "api": "npx playwright test --grep @API",
+    "debug": "npx playwright test --ui",
+    "test": "npx playwright test",
+    "test:dev": "export NODE_ENV=auto-test npx playwright test"
+
+  },
+  "keywords": [],
+  "author": "Valeria Spektor",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@playwright/test": "^1.48.1"
+  }
+}
