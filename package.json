@@ -5,7 +5,7 @@
   "scripts": {
     "allureGenerate": "allure generate --clean",
     "allureOpen": "allure open",
-    "api": "npx playwright test --grep @API",
+    "api": "npx playwright test --grep @list",
     "debug": "npx playwright test --ui",
     "test": "npx playwright test",
     "test:dev": "export NODE_ENV=auto-test npx playwright test"

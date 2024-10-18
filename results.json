@@ -1,0 +1,2526 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\playwright.config.js",
+    "rootDir": "C:/Users/alangouser/Desktop/HW_API_1/HW_QA.GURU_API_1",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/alangouser/Desktop/HW_API_1/HW_QA.GURU_API_1/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "API Tests",
+        "name": "API Tests",
+        "testDir": "C:/Users/alangouser/Desktop/HW_API_1/HW_QA.GURU_API_1",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.48.1",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\api-tests.spec.js",
+      "file": "tests/api-tests.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "API challenge",
+          "file": "tests/api-tests.spec.js",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "1. GET /challenges should return 200 and contain 59 challenges",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 1108,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Это токен: eb8a8ced-5d54-474c-af2e-fc161c2b5c38\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:33.498Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-65d58-0-and-contain-59-challenges-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-87ea08837e5e155167e0",
+              "file": "tests/api-tests.spec.js",
+              "line": 17,
+              "column": 7
+            },
+            {
+              "title": "2. POST /todos should return 201 on valid data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 720,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:36.419Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-e7d46-ld-return-201-on-valid-data-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-4be5dc68eb79dbe31151",
+              "file": "tests/api-tests.spec.js",
+              "line": 29,
+              "column": 7
+            },
+            {
+              "title": "3. POST /todos should return 400 when doneStatus is invalid",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 752,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:37.204Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-50995--when-doneStatus-is-invalid-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-95b7eb2c737f9d14bcfb",
+              "file": "tests/api-tests.spec.js",
+              "line": 39,
+              "column": 7
+            },
+            {
+              "title": "4. POST /todos should return 400 when title exceeds length",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 849,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:38.007Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-51b5a-0-when-title-exceeds-length-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-a201cfd65fc5c79a6a20",
+              "file": "tests/api-tests.spec.js",
+              "line": 49,
+              "column": 7
+            },
+            {
+              "title": "5. POST and GET /todos/{id} should return 200 for valid ID",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 1407,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:38.958Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-2c1c0-uld-return-200-for-valid-ID-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-0872d42c89070e59c813",
+              "file": "tests/api-tests.spec.js",
+              "line": 60,
+              "column": 7
+            },
+            {
+              "title": "6. GET /todos/{id} should return 404 for non-existent ID",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 739,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:40.429Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-5310b-urn-404-for-non-existent-ID-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-4b86ffd33fa53686b54f",
+              "file": "tests/api-tests.spec.js",
+              "line": 76,
+              "column": 7
+            },
+            {
+              "title": "7. POST /todos should return 413 when payload exceeds maximum length",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 721,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:41.220Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-eb3dd-load-exceeds-maximum-length-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-be111e0c624e4d276d52",
+              "file": "tests/api-tests.spec.js",
+              "line": 84,
+              "column": 7
+            },
+            {
+              "title": "8. POST /todos should return 400 when extra fields are provided",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 771,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:41.985Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-e5661-n-extra-fields-are-provided-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-2bdc503222c4823813a6",
+              "file": "tests/api-tests.spec.js",
+              "line": 94,
+              "column": 7
+            },
+            {
+              "title": "9. GET /todos/{id} should return 200 for valid ID",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 711,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:42.798Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-b12b5-uld-return-200-for-valid-ID-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-90960b6e8113f7aa7128",
+              "file": "tests/api-tests.spec.js",
+              "line": 104,
+              "column": 7
+            },
+            {
+              "title": "10. GET /todos/{id} should return 404 for non-existent ID",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 735,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:43.552Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-514dc-urn-404-for-non-existent-ID-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-53414bbb9273eb4cc9ce",
+              "file": "tests/api-tests.spec.js",
+              "line": 114,
+              "column": 7
+            },
+            {
+              "title": "11. GET /todos should return 200",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 752,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:44.333Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challenge-11-GET-todos-should-return-200-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-2dcea5905728ea27ad81",
+              "file": "tests/api-tests.spec.js",
+              "line": 124,
+              "column": 7
+            },
+            {
+              "title": "12. GET /todo (singular) should return 404",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 724,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:45.162Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-64634--singular-should-return-404-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-ad57422d05652660d248",
+              "file": "tests/api-tests.spec.js",
+              "line": 134,
+              "column": 7
+            },
+            {
+              "title": "13. HEAD /todos should return 200",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 869,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:45.926Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-1a2b1-EAD-todos-should-return-200-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-95b68edfe38984c0c6ca",
+              "file": "tests/api-tests.spec.js",
+              "line": 144,
+              "column": 7
+            },
+            {
+              "title": "14. PUT /todos/{id} should return 200 on valid update",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 776,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Response body: {\n  id: \u001b[33m1\u001b[39m,\n  title: \u001b[32m'Updated title'\u001b[39m,\n  doneStatus: \u001b[33mfalse\u001b[39m,\n  description: \u001b[32m'Updated description'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:46.866Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-d8036--return-200-on-valid-update-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-9038a2ac4b0d212b61b3",
+              "file": "tests/api-tests.spec.js",
+              "line": 154,
+              "column": 7
+            },
+            {
+              "title": "15. PUT /todos/{id} should return 400 for invalid data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 778,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:47.741Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-25ad8-return-400-for-invalid-data-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-00a2a22e872e94d7562f",
+              "file": "tests/api-tests.spec.js",
+              "line": 171,
+              "column": 7
+            },
+            {
+              "title": "16. PUT /todos/{id} should return 400 for invalid creation attempt",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 749,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:48.574Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-0cb54-or-invalid-creation-attempt-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-e1ecdf0deaa2107eac19",
+              "file": "tests/api-tests.spec.js",
+              "line": 184,
+              "column": 6
+            },
+            {
+              "title": "17. POST /todos/{id} should return 200 for successful update",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 720,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:49.369Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-09c39-n-200-for-successful-update-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-4d916df71809282e79df",
+              "file": "tests/api-tests.spec.js",
+              "line": 199,
+              "column": 7
+            },
+            {
+              "title": "18. POST /todos/{id} should return 404 for non-existent todo",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 825,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:50.128Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-92227-n-404-for-non-existent-todo-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-3c612bfb7e332fd1f125",
+              "file": "tests/api-tests.spec.js",
+              "line": 215,
+              "column": 7
+            },
+            {
+              "title": "19. PUT /todos/{id} full update should return 200",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 765,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:51.122Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-f2533-ll-update-should-return-200-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-f7ebbbf39aa053726788",
+              "file": "tests/api-tests.spec.js",
+              "line": 231,
+              "column": 7
+            },
+            {
+              "title": "20. PUT /todos/{id} partial update should return 200",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 728,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:51.930Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-c3f8c-al-update-should-return-200-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-34853f223517559e4b93",
+              "file": "tests/api-tests.spec.js",
+              "line": 247,
+              "column": 7
+            },
+            {
+              "title": "21. PUT /todos/{id} should return 400 if title is missing",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 750,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:52.699Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-657ea-urn-400-if-title-is-missing-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-22e5ced64d9ab2419fcf",
+              "file": "tests/api-tests.spec.js",
+              "line": 261,
+              "column": 7
+            },
+            {
+              "title": "22. PUT /todos/{id} should return 400 for mismatching ID in payload",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 766,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:53.487Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-70742-r-mismatching-ID-in-payload-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-b0815aab578114896b57",
+              "file": "tests/api-tests.spec.js",
+              "line": 275,
+              "column": 7
+            },
+            {
+              "title": "23. DELETE /todos/{id} should return 200 for successful deletion",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 737,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:54.294Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-02c0b-200-for-successful-deletion-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-f5efc566950756b81908",
+              "file": "tests/api-tests.spec.js",
+              "line": 291,
+              "column": 7
+            },
+            {
+              "title": "24. OPTIONS /todos should return 200 and list allowed methods",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 690,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:55.069Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-3e18c-00-and-list-allowed-methods-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-d5c0c9d8fb2eed33cc11",
+              "file": "tests/api-tests.spec.js",
+              "line": 301,
+              "column": 7
+            },
+            {
+              "title": "25. GET /todos should return 200 with Accept header set to application/xml",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 784,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:55.795Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-1ad66-ader-set-to-application-xml-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-7c9f3192dc374338c388",
+              "file": "tests/api-tests.spec.js",
+              "line": 312,
+              "column": 7
+            },
+            {
+              "title": "26. GET /todos should return 200 with Accept header set to application/json",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 718,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:56.617Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-04c92-der-set-to-application-json-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-f5fa026413b1304cc81c",
+              "file": "tests/api-tests.spec.js",
+              "line": 325,
+              "column": 7
+            },
+            {
+              "title": "27. GET /todos should return 200 with Accept header set to */*",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 735,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:57.373Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-307a8--with-Accept-header-set-to--API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-415c2a9c6bb3c87f40de",
+              "file": "tests/api-tests.spec.js",
+              "line": 338,
+              "column": 7
+            },
+            {
+              "title": "28. GET /todos should return 200 with XML preferred in Accept header",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 750,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:58.162Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-27a79--preferred-in-Accept-header-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-2ea2bc684668c149934b",
+              "file": "tests/api-tests.spec.js",
+              "line": 351,
+              "column": 7
+            },
+            {
+              "title": "29. GET /todos should return 200 with no Accept header, defaulting to JSON",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 727,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:58.952Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-64699-t-header-defaulting-to-JSON-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-4d5ec64ace6fdadd2042",
+              "file": "tests/api-tests.spec.js",
+              "line": 364,
+              "column": 7
+            },
+            {
+              "title": "30. GET /todos should return 406 when Accept header is set to unsupported type",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 781,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:34:59.720Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-5117e--is-set-to-unsupported-type-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-334ecd442ff1b66648d6",
+              "file": "tests/api-tests.spec.js",
+              "line": 376,
+              "column": 7
+            },
+            {
+              "title": "31. POST /todos with XML Content-Type",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 716,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:00.542Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-eb10f-todos-with-XML-Content-Type-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-6b12a9c0d393c43dc31b",
+              "file": "tests/api-tests.spec.js",
+              "line": 387,
+              "column": 5
+            },
+            {
+              "title": "32. POST /todos with JSON Content-Type",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 737,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:01.298Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-7a936-odos-with-JSON-Content-Type-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-e6966aa8d98afdbcc8dd",
+              "file": "tests/api-tests.spec.js",
+              "line": 400,
+              "column": 5
+            },
+            {
+              "title": "33. POST /todos with unsupported Content-Type",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 709,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:02.080Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-bd2a8-th-unsupported-Content-Type-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-d00c33cdbb0f46124a59",
+              "file": "tests/api-tests.spec.js",
+              "line": 413,
+              "column": 5
+            },
+            {
+              "title": "34. GET /challenger/guid (existing X-CHALLENGER)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 762,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:02.826Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-2b9df-guid-existing-X-CHALLENGER--API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-7defa3a4ad10326eb044",
+              "file": "tests/api-tests.spec.js",
+              "line": 427,
+              "column": 5
+            },
+            {
+              "title": "35. PUT /challenger/guid RESTORE",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 878,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:03.641Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challenge-35-PUT-challenger-guid-RESTORE-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-9b9757003d0922d17361",
+              "file": "tests/api-tests.spec.js",
+              "line": 436,
+              "column": 5
+            },
+            {
+              "title": "36. PUT /challenger/guid CREATE",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 297,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:04.553Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challenge-36-PUT-challenger-guid-CREATE-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-f6a49284b6b2ba80a5f7",
+              "file": "tests/api-tests.spec.js",
+              "line": 446,
+              "column": 5
+            },
+            {
+              "title": "37. GET /challenger/database/guid (200)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 317,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:04.889Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-81c45-allenger-database-guid-200--API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-980b8d08c8ed9da1ade4",
+              "file": "tests/api-tests.spec.js",
+              "line": 455,
+              "column": 5
+            },
+            {
+              "title": "38. PUT /challenger/database/guid (Update)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 324,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:05.264Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-2f66c-enger-database-guid-Update--API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-451fd4db41f36861f0c5",
+              "file": "tests/api-tests.spec.js",
+              "line": 462,
+              "column": 5
+            },
+            {
+              "title": "39. POST /todos XML to JSON",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 828,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:05.629Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challenge-39-POST-todos-XML-to-JSON-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-0ebe38e64b39e6777f7d",
+              "file": "tests/api-tests.spec.js",
+              "line": 472,
+              "column": 5
+            },
+            {
+              "title": "40. POST /todos JSON to XML",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 785,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:06.535Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challenge-40-POST-todos-JSON-to-XML-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-8928f4d5ac31a3ce9b06",
+              "file": "tests/api-tests.spec.js",
+              "line": 486,
+              "column": 5
+            },
+            {
+              "title": "41. DELETE /heartbeat should return 405",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 794,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:07.392Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-e8052-heartbeat-should-return-405-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-e01443d28cec94257636",
+              "file": "tests/api-tests.spec.js",
+              "line": 500,
+              "column": 5
+            },
+            {
+              "title": "42. PATCH /heartbeat should return 500",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 1006,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:08.222Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-c5af2-heartbeat-should-return-500-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-ca1b48bab68904e939cc",
+              "file": "tests/api-tests.spec.js",
+              "line": 506,
+              "column": 7
+            },
+            {
+              "title": "43. TRACE /heartbeat should return 501",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 872,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:09.350Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-abe57-heartbeat-should-return-501-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-9f6e4bd7ed52335356de",
+              "file": "tests/api-tests.spec.js",
+              "line": 512,
+              "column": 7
+            },
+            {
+              "title": "44. GET /heartbeat should return 204",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 1118,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:10.280Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-65bab-heartbeat-should-return-204-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-b0011ab4cd7c89fc340a",
+              "file": "tests/api-tests.spec.js",
+              "line": 520,
+              "column": 7
+            },
+            {
+              "title": "45. POST /heartbeat as DELETE should return 405",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 276,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:11.677Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-439d6-as-DELETE-should-return-405-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-22e9b342203950455719",
+              "file": "tests/api-tests.spec.js",
+              "line": 526,
+              "column": 5
+            },
+            {
+              "title": "46. POST /heartbeat as PATCH should return 500",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "failed",
+                      "duration": 880,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m500\u001b[39m\nReceived: \u001b[31m405\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m500\u001b[39m\nReceived: \u001b[31m405\u001b[39m\n    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:537:31",
+                        "location": {
+                          "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
+                          "column": 31,
+                          "line": 537
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 535 |\u001b[39m       method\u001b[33m:\u001b[39m \u001b[32m'PATCH'\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 536 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 537 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m500\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Сервер должен возвращать 500 для PATCH\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 538 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 539 |\u001b[39m  \n \u001b[90m 540 |\u001b[39m   \u001b[90m// 47. POST /heartbeat as TRACE should return 501\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
+                            "column": 31,
+                            "line": 537
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m500\u001b[39m\nReceived: \u001b[31m405\u001b[39m\n\n\u001b[0m \u001b[90m 535 |\u001b[39m       method\u001b[33m:\u001b[39m \u001b[32m'PATCH'\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 536 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 537 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m500\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Сервер должен возвращать 500 для PATCH\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 538 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 539 |\u001b[39m  \n \u001b[90m 540 |\u001b[39m   \u001b[90m// 47. POST /heartbeat as TRACE should return 501\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:537:31\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:12.375Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-50fea--as-PATCH-should-return-500-API-Tests\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
+                        "column": 31,
+                        "line": 537
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-644c51c14c4663cae9d0",
+              "file": "tests/api-tests.spec.js",
+              "line": 533,
+              "column": 7
+            },
+            {
+              "title": "47. POST /heartbeat as TRACE should return 501",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "failed",
+                      "duration": 764,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m501\u001b[39m\nReceived: \u001b[31m405\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m501\u001b[39m\nReceived: \u001b[31m405\u001b[39m\n    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:545:31",
+                        "location": {
+                          "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
+                          "column": 31,
+                          "line": 545
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 543 |\u001b[39m       method\u001b[33m:\u001b[39m \u001b[32m'TRACE'\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 544 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 545 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m501\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Сервер должен возвращать 501 для TRACE\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 546 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 547 |\u001b[39m    \n \u001b[90m 548 |\u001b[39m   \u001b[90m// 48. POST /secret/token (401)\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
+                            "column": 31,
+                            "line": 545
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m501\u001b[39m\nReceived: \u001b[31m405\u001b[39m\n\n\u001b[0m \u001b[90m 543 |\u001b[39m       method\u001b[33m:\u001b[39m \u001b[32m'TRACE'\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 544 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 545 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m501\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Сервер должен возвращать 501 для TRACE\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 546 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 547 |\u001b[39m    \n \u001b[90m 548 |\u001b[39m   \u001b[90m// 48. POST /secret/token (401)\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:545:31\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Это токен: fbff4b8a-aa6c-4c66-9051-a8415e9623f7\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:16.939Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-e0cf4--as-TRACE-should-return-501-API-Tests\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
+                        "column": 31,
+                        "line": 545
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-006f6bfebee6a338c446",
+              "file": "tests/api-tests.spec.js",
+              "line": 541,
+              "column": 7
+            },
+            {
+              "title": "48. POST /secret/token should return 401 for invalid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 1203,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Это токен: 3a1f7b00-e20c-4d18-a0c8-9035528e77b5\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:20.245Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-74cd3-401-for-invalid-credentials-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-3753a0383770557d8f6e",
+              "file": "tests/api-tests.spec.js",
+              "line": 549,
+              "column": 7
+            },
+            {
+              "title": "49. POST /secret/token should return 201 for correct credentials",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "failed",
+                      "duration": 786,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m401\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:560:31",
+                        "location": {
+                          "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
+                          "column": 31,
+                          "line": 560
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 558 |\u001b[39m       headers\u001b[33m:\u001b[39m { \u001b[32m'Authorization'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'Basic '\u001b[39m \u001b[33m+\u001b[39m \u001b[33mBuffer\u001b[39m\u001b[33m.\u001b[39m\u001b[36mfrom\u001b[39m(\u001b[32m'admin:password'\u001b[39m)\u001b[33m.\u001b[39mtoString(\u001b[32m'base64'\u001b[39m) }\u001b[33m,\u001b[39m\n \u001b[90m 559 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 560 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m201\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Убедиться, что учетные данные корректны\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 561 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 562 |\u001b[39m    \n \u001b[90m 563 |\u001b[39m   \u001b[90m// 50. GET /secret/note should return 403 for invalid token\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
+                            "column": 31,
+                            "line": 560
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n\n\u001b[0m \u001b[90m 558 |\u001b[39m       headers\u001b[33m:\u001b[39m { \u001b[32m'Authorization'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'Basic '\u001b[39m \u001b[33m+\u001b[39m \u001b[33mBuffer\u001b[39m\u001b[33m.\u001b[39m\u001b[36mfrom\u001b[39m(\u001b[32m'admin:password'\u001b[39m)\u001b[33m.\u001b[39mtoString(\u001b[32m'base64'\u001b[39m) }\u001b[33m,\u001b[39m\n \u001b[90m 559 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 560 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m201\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Убедиться, что учетные данные корректны\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 561 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 562 |\u001b[39m    \n \u001b[90m 563 |\u001b[39m   \u001b[90m// 50. GET /secret/note should return 403 for invalid token\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:560:31\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:22.624Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-4911e-201-for-correct-credentials-API-Tests\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
+                        "column": 31,
+                        "line": 560
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-db8fac1b66c5e1e1d521",
+              "file": "tests/api-tests.spec.js",
+              "line": 556,
+              "column": 7
+            },
+            {
+              "title": "50. GET /secret/note should return 403 for invalid token",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "failed",
+                      "duration": 830,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m401\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:568:31",
+                        "location": {
+                          "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
+                          "column": 31,
+                          "line": 568
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 566 |\u001b[39m       headers\u001b[33m:\u001b[39m { \u001b[32m'X-AUTH-TOKEN'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'invalid-token'\u001b[39m }\u001b[33m,\u001b[39m\n \u001b[90m 567 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 568 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m403\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Ожидаем 403 для неправильного токена\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 569 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 570 |\u001b[39m  \n \u001b[90m 571 |\u001b[39m   \u001b[90m// 51. GET /secret/note should return 401 without token\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
+                            "column": 31,
+                            "line": 568
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n\n\u001b[0m \u001b[90m 566 |\u001b[39m       headers\u001b[33m:\u001b[39m { \u001b[32m'X-AUTH-TOKEN'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'invalid-token'\u001b[39m }\u001b[33m,\u001b[39m\n \u001b[90m 567 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 568 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m403\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Ожидаем 403 для неправильного токена\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 569 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 570 |\u001b[39m  \n \u001b[90m 571 |\u001b[39m   \u001b[90m// 51. GET /secret/note should return 401 without token\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:568:31\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Это токен: 68cddb02-932b-4671-a50a-a61f98927c70\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:24.930Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-0c679-eturn-403-for-invalid-token-API-Tests\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
+                        "column": 31,
+                        "line": 568
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-38bfe023aed5396871ca",
+              "file": "tests/api-tests.spec.js",
+              "line": 564,
+              "column": 7
+            },
+            {
+              "title": "51. GET /secret/note should return 401 without token",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "passed",
+                      "duration": 743,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Это токен: 3bda5962-9357-43c3-a69a-d0e4d251b8b3\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:28.923Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-6f0b5-ld-return-401-without-token-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-8a0a7605b5ad47e4e424",
+              "file": "tests/api-tests.spec.js",
+              "line": 572,
+              "column": 7
+            },
+            {
+              "title": "52. GET /secret/note should return 200 for valid token",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "passed",
+                      "duration": 752,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:30.767Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-7c249--return-200-for-valid-token-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-0c4a23f04311eaef6c56",
+              "file": "tests/api-tests.spec.js",
+              "line": 578,
+              "column": 5
+            },
+            {
+              "title": "53. POST /secret/note should return 200 for valid note and token",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "passed",
+                      "duration": 336,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:31.561Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-63f5b-00-for-valid-note-and-token-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-4947bb8908db4d643a49",
+              "file": "tests/api-tests.spec.js",
+              "line": 588,
+              "column": 5
+            },
+            {
+              "title": "54. POST /secret/note should return 401 without token",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "passed",
+                      "duration": 833,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:31.947Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-5f93c-ld-return-401-without-token-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-a116e6ccc627162f7314",
+              "file": "tests/api-tests.spec.js",
+              "line": 601,
+              "column": 7
+            },
+            {
+              "title": "55. POST /secret/note should return 403 for invalid token",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "failed",
+                      "duration": 739,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m401\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:613:31",
+                        "location": {
+                          "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
+                          "column": 31,
+                          "line": 613
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 611 |\u001b[39m       data\u001b[33m:\u001b[39m { note\u001b[33m:\u001b[39m \u001b[32m\"my note\"\u001b[39m }\u001b[33m,\u001b[39m\n \u001b[90m 612 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 613 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m403\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Неверный токен должен вернуть 403\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 614 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 615 |\u001b[39m  \n \u001b[90m 616 |\u001b[39m   \u001b[90m// 56. GET /secret/note should return 200 with valid Bearer token\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
+                            "column": 31,
+                            "line": 613
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n\n\u001b[0m \u001b[90m 611 |\u001b[39m       data\u001b[33m:\u001b[39m { note\u001b[33m:\u001b[39m \u001b[32m\"my note\"\u001b[39m }\u001b[33m,\u001b[39m\n \u001b[90m 612 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 613 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m403\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Неверный токен должен вернуть 403\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 614 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 615 |\u001b[39m  \n \u001b[90m 616 |\u001b[39m   \u001b[90m// 56. GET /secret/note should return 200 with valid Bearer token\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:613:31\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:32.856Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-ff051-eturn-403-for-invalid-token-API-Tests\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
+                        "column": 31,
+                        "line": 613
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-feee05997f5db90eed72",
+              "file": "tests/api-tests.spec.js",
+              "line": 608,
+              "column": 7
+            },
+            {
+              "title": "56. GET /secret/note should return 200 with valid Bearer token",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "failed",
+                      "duration": 749,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m401\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:621:31",
+                        "location": {
+                          "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
+                          "column": 31,
+                          "line": 621
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 619 |\u001b[39m       headers\u001b[33m:\u001b[39m { \u001b[32m'Authorization'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'Bearer valid-token'\u001b[39m }\u001b[33m,\u001b[39m\n \u001b[90m 620 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 621 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Ожидаем успешный ответ с Bearer токеном\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 622 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 623 |\u001b[39m    \n \u001b[90m 624 |\u001b[39m \u001b[90m// 57. POST /secret/note with Bearer token (200)\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
+                            "column": 31,
+                            "line": 621
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n\n\u001b[0m \u001b[90m 619 |\u001b[39m       headers\u001b[33m:\u001b[39m { \u001b[32m'Authorization'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'Bearer valid-token'\u001b[39m }\u001b[33m,\u001b[39m\n \u001b[90m 620 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 621 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Ожидаем успешный ответ с Bearer токеном\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 622 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 623 |\u001b[39m    \n \u001b[90m 624 |\u001b[39m \u001b[90m// 57. POST /secret/note with Bearer token (200)\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:621:31\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Это токен: f113db74-fe10-4914-a4e6-6fd2d859894f\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:35.386Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-37a0d-200-with-valid-Bearer-token-API-Tests\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
+                        "column": 31,
+                        "line": 621
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-4caa9b6d51535c88708f",
+              "file": "tests/api-tests.spec.js",
+              "line": 617,
+              "column": 7
+            },
+            {
+              "title": "57. POST /secret/note should return 200 with valid Bearer token",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "status": "passed",
+                      "duration": 855,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Это токен: 01d3f04d-f473-42b8-8c69-35e1fcc759ff\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:39.469Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-f18cd-200-with-valid-Bearer-token-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-fac9b957460f9e56358b",
+              "file": "tests/api-tests.spec.js",
+              "line": 625,
+              "column": 5
+            },
+            {
+              "title": "58. DELETE /todos/{id} should return 200 for successful deletion",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "status": "passed",
+                      "duration": 328,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:41.614Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-45c47-200-for-successful-deletion-API-Tests\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-43665c14b5c6809bf851",
+              "file": "tests/api-tests.spec.js",
+              "line": 638,
+              "column": 5
+            },
+            {
+              "title": "59. POST /todos should return 201 until maximum number of todos is reached",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "status": "failed",
+                      "duration": 861,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m401\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:653:31",
+                        "location": {
+                          "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
+                          "column": 31,
+                          "line": 653
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 651 |\u001b[39m       }\u001b[33m,\u001b[39m\n \u001b[90m 652 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 653 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m201\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Ожидаем успешное создание задач до достижения лимита\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 654 |\u001b[39m   }\n \u001b[90m 655 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 656 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
+                            "column": 31,
+                            "line": 653
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n\n\u001b[0m \u001b[90m 651 |\u001b[39m       }\u001b[33m,\u001b[39m\n \u001b[90m 652 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 653 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m201\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Ожидаем успешное создание задач до достижения лимита\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 654 |\u001b[39m   }\n \u001b[90m 655 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 656 |\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:653:31\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-18T19:35:42.116Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-a1b81--number-of-todos-is-reached-API-Tests\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
+                        "column": 31,
+                        "line": 653
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-5bde34f3d6f6380f66f3",
+              "file": "tests/api-tests.spec.js",
+              "line": 645,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-10-18T19:34:31.254Z",
+    "duration": 71860.393,
+    "expected": 52,
+    "skipped": 0,
+    "unexpected": 7,
+    "flaky": 0
+  }
+}
