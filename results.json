@@ -82,16 +82,16 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 1108,
+                      "duration": 800,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "Это токен: eb8a8ced-5d54-474c-af2e-fc161c2b5c38\n"
+                          "text": "Это токен: bb257488-d962-4d34-a9dc-60565d3eec7c\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:33.498Z",
+                      "startTime": "2024-10-18T20:01:00.142Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -124,12 +124,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 720,
+                      "duration": 1393,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:36.419Z",
+                      "startTime": "2024-10-18T20:01:02.484Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -162,12 +162,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 752,
+                      "duration": 788,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:37.204Z",
+                      "startTime": "2024-10-18T20:01:04.030Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -200,12 +200,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 849,
+                      "duration": 805,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:38.007Z",
+                      "startTime": "2024-10-18T20:01:04.959Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -238,12 +238,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 1407,
+                      "duration": 1643,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:38.958Z",
+                      "startTime": "2024-10-18T20:01:05.848Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -276,12 +276,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 739,
+                      "duration": 718,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:40.429Z",
+                      "startTime": "2024-10-18T20:01:07.587Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -314,12 +314,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 721,
+                      "duration": 908,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:41.220Z",
+                      "startTime": "2024-10-18T20:01:08.350Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -352,12 +352,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 771,
+                      "duration": 727,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:41.985Z",
+                      "startTime": "2024-10-18T20:01:09.303Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -390,12 +390,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 711,
+                      "duration": 737,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:42.798Z",
+                      "startTime": "2024-10-18T20:01:10.117Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -428,12 +428,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 735,
+                      "duration": 716,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:43.552Z",
+                      "startTime": "2024-10-18T20:01:10.912Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -466,12 +466,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 752,
+                      "duration": 756,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:44.333Z",
+                      "startTime": "2024-10-18T20:01:11.668Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -504,12 +504,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 724,
+                      "duration": 737,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:45.162Z",
+                      "startTime": "2024-10-18T20:01:12.492Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -542,12 +542,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 869,
+                      "duration": 772,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:45.926Z",
+                      "startTime": "2024-10-18T20:01:13.272Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -580,7 +580,7 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 776,
+                      "duration": 736,
                       "errors": [],
                       "stdout": [
                         {
@@ -589,7 +589,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:46.866Z",
+                      "startTime": "2024-10-18T20:01:14.093Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -622,12 +622,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 778,
+                      "duration": 826,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:47.741Z",
+                      "startTime": "2024-10-18T20:01:14.893Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -660,12 +660,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 749,
+                      "duration": 2870,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:48.574Z",
+                      "startTime": "2024-10-18T20:01:15.769Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -698,12 +698,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 720,
+                      "duration": 760,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:49.369Z",
+                      "startTime": "2024-10-18T20:01:18.791Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -736,12 +736,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 825,
+                      "duration": 712,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:50.128Z",
+                      "startTime": "2024-10-18T20:01:19.594Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -774,12 +774,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 765,
+                      "duration": 729,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:51.122Z",
+                      "startTime": "2024-10-18T20:01:20.349Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -812,12 +812,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 728,
+                      "duration": 744,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:51.930Z",
+                      "startTime": "2024-10-18T20:01:21.169Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -855,7 +855,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:52.699Z",
+                      "startTime": "2024-10-18T20:01:21.978Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -888,12 +888,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 766,
+                      "duration": 837,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:53.487Z",
+                      "startTime": "2024-10-18T20:01:22.876Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -926,12 +926,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 737,
+                      "duration": 773,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:54.294Z",
+                      "startTime": "2024-10-18T20:01:23.797Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -964,12 +964,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 690,
+                      "duration": 719,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:55.069Z",
+                      "startTime": "2024-10-18T20:01:24.637Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1002,12 +1002,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 784,
+                      "duration": 734,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:55.795Z",
+                      "startTime": "2024-10-18T20:01:25.399Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1040,12 +1040,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 718,
+                      "duration": 714,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:56.617Z",
+                      "startTime": "2024-10-18T20:01:26.173Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1078,12 +1078,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 735,
+                      "duration": 907,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:57.373Z",
+                      "startTime": "2024-10-18T20:01:26.933Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1116,12 +1116,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 750,
+                      "duration": 731,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:58.162Z",
+                      "startTime": "2024-10-18T20:01:27.877Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1159,7 +1159,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:58.952Z",
+                      "startTime": "2024-10-18T20:01:28.675Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1192,12 +1192,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 781,
+                      "duration": 711,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:34:59.720Z",
+                      "startTime": "2024-10-18T20:01:29.449Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1230,12 +1230,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 716,
+                      "duration": 1013,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:00.542Z",
+                      "startTime": "2024-10-18T20:01:30.196Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1268,12 +1268,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 737,
+                      "duration": 766,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:01.298Z",
+                      "startTime": "2024-10-18T20:01:31.257Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1306,12 +1306,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 709,
+                      "duration": 732,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:02.080Z",
+                      "startTime": "2024-10-18T20:01:32.063Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1344,12 +1344,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 762,
+                      "duration": 710,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:02.826Z",
+                      "startTime": "2024-10-18T20:01:32.834Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1382,12 +1382,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 878,
+                      "duration": 710,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:03.641Z",
+                      "startTime": "2024-10-18T20:01:33.579Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1420,12 +1420,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 297,
+                      "duration": 376,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:04.553Z",
+                      "startTime": "2024-10-18T20:01:34.330Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1458,12 +1458,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 317,
+                      "duration": 281,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:04.889Z",
+                      "startTime": "2024-10-18T20:01:34.773Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1496,12 +1496,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 324,
+                      "duration": 388,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:05.264Z",
+                      "startTime": "2024-10-18T20:01:35.236Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1534,12 +1534,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 828,
+                      "duration": 757,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:05.629Z",
+                      "startTime": "2024-10-18T20:01:35.740Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1572,12 +1572,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 785,
+                      "duration": 708,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:06.535Z",
+                      "startTime": "2024-10-18T20:01:36.537Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1610,12 +1610,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 794,
+                      "duration": 742,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:07.392Z",
+                      "startTime": "2024-10-18T20:01:37.282Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1648,12 +1648,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 1006,
+                      "duration": 731,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:08.222Z",
+                      "startTime": "2024-10-18T20:01:38.059Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1686,12 +1686,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 872,
+                      "duration": 704,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:09.350Z",
+                      "startTime": "2024-10-18T20:01:38.829Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1724,12 +1724,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 1118,
+                      "duration": 703,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:10.280Z",
+                      "startTime": "2024-10-18T20:01:39.565Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1762,12 +1762,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 276,
+                      "duration": 253,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:11.677Z",
+                      "startTime": "2024-10-18T20:01:40.307Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1800,7 +1800,7 @@
                     {
                       "workerIndex": 0,
                       "status": "failed",
-                      "duration": 880,
+                      "duration": 731,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m500\u001b[39m\nReceived: \u001b[31m405\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m500\u001b[39m\nReceived: \u001b[31m405\u001b[39m\n    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:537:31",
@@ -1824,7 +1824,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:12.375Z",
+                      "startTime": "2024-10-18T20:01:40.601Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1862,7 +1862,7 @@
                     {
                       "workerIndex": 1,
                       "status": "failed",
-                      "duration": 764,
+                      "duration": 756,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m501\u001b[39m\nReceived: \u001b[31m405\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m501\u001b[39m\nReceived: \u001b[31m405\u001b[39m\n    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:545:31",
@@ -1885,12 +1885,12 @@
                       ],
                       "stdout": [
                         {
-                          "text": "Это токен: fbff4b8a-aa6c-4c66-9051-a8415e9623f7\n"
+                          "text": "Это токен: c079e33c-a8e6-4d9e-ae92-7c3dc3387874\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:16.939Z",
+                      "startTime": "2024-10-18T20:01:43.230Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1928,16 +1928,16 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 1203,
+                      "duration": 793,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "Это токен: 3a1f7b00-e20c-4d18-a0c8-9035528e77b5\n"
+                          "text": "Это токен: 7d34576f-ccc7-45db-afe2-aa2bd1d40773\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:20.245Z",
+                      "startTime": "2024-10-18T20:01:47.011Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1970,7 +1970,7 @@
                     {
                       "workerIndex": 2,
                       "status": "failed",
-                      "duration": 786,
+                      "duration": 838,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m401\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:560:31",
@@ -1994,7 +1994,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:22.624Z",
+                      "startTime": "2024-10-18T20:01:49.059Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -2032,7 +2032,7 @@
                     {
                       "workerIndex": 3,
                       "status": "failed",
-                      "duration": 830,
+                      "duration": 1387,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m401\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:568:31",
@@ -2055,12 +2055,12 @@
                       ],
                       "stdout": [
                         {
-                          "text": "Это токен: 68cddb02-932b-4671-a50a-a61f98927c70\n"
+                          "text": "Это токен: b9fcc5d6-ec49-4eb9-b4c8-3f27597d8859\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:24.930Z",
+                      "startTime": "2024-10-18T20:01:51.345Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -2098,16 +2098,16 @@
                     {
                       "workerIndex": 4,
                       "status": "passed",
-                      "duration": 743,
+                      "duration": 750,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "Это токен: 3bda5962-9357-43c3-a69a-d0e4d251b8b3\n"
+                          "text": "Это токен: 74b3aaa2-8e77-4bc7-ba9d-6a22770f369b\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:28.923Z",
+                      "startTime": "2024-10-18T20:01:56.136Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -2140,12 +2140,12 @@
                     {
                       "workerIndex": 4,
                       "status": "passed",
-                      "duration": 752,
+                      "duration": 1007,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:30.767Z",
+                      "startTime": "2024-10-18T20:01:58.029Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -2178,12 +2178,12 @@
                     {
                       "workerIndex": 4,
                       "status": "passed",
-                      "duration": 336,
+                      "duration": 322,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:31.561Z",
+                      "startTime": "2024-10-18T20:01:59.093Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -2216,12 +2216,12 @@
                     {
                       "workerIndex": 4,
                       "status": "passed",
-                      "duration": 833,
+                      "duration": 1125,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:31.947Z",
+                      "startTime": "2024-10-18T20:01:59.478Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -2254,7 +2254,7 @@
                     {
                       "workerIndex": 4,
                       "status": "failed",
-                      "duration": 739,
+                      "duration": 772,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m401\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:613:31",
@@ -2278,7 +2278,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:32.856Z",
+                      "startTime": "2024-10-18T20:02:01.023Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -2316,7 +2316,7 @@
                     {
                       "workerIndex": 5,
                       "status": "failed",
-                      "duration": 749,
+                      "duration": 755,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m401\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:621:31",
@@ -2339,12 +2339,12 @@
                       ],
                       "stdout": [
                         {
-                          "text": "Это токен: f113db74-fe10-4914-a4e6-6fd2d859894f\n"
+                          "text": "Это токен: 80a75603-7315-4e74-938d-218221a9b1bc\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:35.386Z",
+                      "startTime": "2024-10-18T20:02:03.612Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -2382,16 +2382,16 @@
                     {
                       "workerIndex": 6,
                       "status": "passed",
-                      "duration": 855,
+                      "duration": 797,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "Это токен: 01d3f04d-f473-42b8-8c69-35e1fcc759ff\n"
+                          "text": "Это токен: 96776db1-b8ac-441d-bfb5-df97cf74d939\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:39.469Z",
+                      "startTime": "2024-10-18T20:02:07.791Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -2424,12 +2424,12 @@
                     {
                       "workerIndex": 6,
                       "status": "passed",
-                      "duration": 328,
+                      "duration": 314,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:41.614Z",
+                      "startTime": "2024-10-18T20:02:09.896Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -2462,7 +2462,7 @@
                     {
                       "workerIndex": 6,
                       "status": "failed",
-                      "duration": 861,
+                      "duration": 782,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m401\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:653:31",
@@ -2486,7 +2486,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T19:35:42.116Z",
+                      "startTime": "2024-10-18T20:02:10.269Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -2516,8 +2516,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-10-18T19:34:31.254Z",
-    "duration": 71860.393,
+    "startTime": "2024-10-18T20:00:57.570Z",
+    "duration": 73605.524,
     "expected": 52,
     "skipped": 0,
     "unexpected": 7,
