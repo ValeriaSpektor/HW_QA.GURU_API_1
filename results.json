@@ -82,16 +82,16 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 800,
+                      "duration": 927,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "Это токен: bb257488-d962-4d34-a9dc-60565d3eec7c\n"
+                          "text": "Это токен: 465740ae-1ae2-4f5f-9130-2674e677648c\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:00.142Z",
+                      "startTime": "2024-10-20T13:46:39.352Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -124,12 +124,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 1393,
+                      "duration": 1267,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:02.484Z",
+                      "startTime": "2024-10-20T13:46:42.486Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -162,12 +162,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 788,
+                      "duration": 1003,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:04.030Z",
+                      "startTime": "2024-10-20T13:46:44.073Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -200,12 +200,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 805,
+                      "duration": 830,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:04.959Z",
+                      "startTime": "2024-10-20T13:46:45.317Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -238,12 +238,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 1643,
+                      "duration": 1420,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:05.848Z",
+                      "startTime": "2024-10-20T13:46:46.231Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -276,12 +276,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 718,
+                      "duration": 768,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:07.587Z",
+                      "startTime": "2024-10-20T13:46:47.754Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -314,12 +314,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 908,
+                      "duration": 1142,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:08.350Z",
+                      "startTime": "2024-10-20T13:46:48.588Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -352,12 +352,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 727,
+                      "duration": 804,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:09.303Z",
+                      "startTime": "2024-10-20T13:46:49.858Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -390,12 +390,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 737,
+                      "duration": 840,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:10.117Z",
+                      "startTime": "2024-10-20T13:46:50.781Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -428,12 +428,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 716,
+                      "duration": 788,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:10.912Z",
+                      "startTime": "2024-10-20T13:46:51.684Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -466,12 +466,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 756,
+                      "duration": 714,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:11.668Z",
+                      "startTime": "2024-10-20T13:46:52.567Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -504,12 +504,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 737,
+                      "duration": 722,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:12.492Z",
+                      "startTime": "2024-10-20T13:46:53.346Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -542,12 +542,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 772,
+                      "duration": 801,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:13.272Z",
+                      "startTime": "2024-10-20T13:46:54.118Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -580,7 +580,7 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 736,
+                      "duration": 750,
                       "errors": [],
                       "stdout": [
                         {
@@ -589,7 +589,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:14.093Z",
+                      "startTime": "2024-10-20T13:46:55.114Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -622,12 +622,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 826,
+                      "duration": 742,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:14.893Z",
+                      "startTime": "2024-10-20T13:46:55.938Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -660,12 +660,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 2870,
+                      "duration": 795,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:15.769Z",
+                      "startTime": "2024-10-20T13:46:56.727Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -698,12 +698,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 760,
+                      "duration": 759,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:18.791Z",
+                      "startTime": "2024-10-20T13:46:57.610Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -736,12 +736,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 712,
+                      "duration": 798,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:19.594Z",
+                      "startTime": "2024-10-20T13:46:58.436Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -774,12 +774,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 729,
+                      "duration": 755,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:20.349Z",
+                      "startTime": "2024-10-20T13:46:59.303Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -812,12 +812,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 744,
+                      "duration": 728,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:21.169Z",
+                      "startTime": "2024-10-20T13:47:00.119Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -850,12 +850,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 750,
+                      "duration": 744,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:21.978Z",
+                      "startTime": "2024-10-20T13:47:00.900Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -888,12 +888,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 837,
+                      "duration": 862,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:22.876Z",
+                      "startTime": "2024-10-20T13:47:01.705Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -926,12 +926,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 773,
+                      "duration": 753,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:23.797Z",
+                      "startTime": "2024-10-20T13:47:02.716Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -964,12 +964,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 719,
+                      "duration": 756,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:24.637Z",
+                      "startTime": "2024-10-20T13:47:03.515Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1002,12 +1002,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 734,
+                      "duration": 740,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:25.399Z",
+                      "startTime": "2024-10-20T13:47:04.320Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1040,12 +1040,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 714,
+                      "duration": 840,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:26.173Z",
+                      "startTime": "2024-10-20T13:47:05.112Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1078,12 +1078,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 907,
+                      "duration": 739,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:26.933Z",
+                      "startTime": "2024-10-20T13:47:06.044Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1116,12 +1116,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 731,
+                      "duration": 716,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:27.877Z",
+                      "startTime": "2024-10-20T13:47:06.846Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1154,12 +1154,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 727,
+                      "duration": 732,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:28.675Z",
+                      "startTime": "2024-10-20T13:47:07.623Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1192,12 +1192,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 711,
+                      "duration": 731,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:29.449Z",
+                      "startTime": "2024-10-20T13:47:08.397Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1230,12 +1230,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 1013,
+                      "duration": 754,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:30.196Z",
+                      "startTime": "2024-10-20T13:47:09.193Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1268,12 +1268,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 766,
+                      "duration": 782,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:31.257Z",
+                      "startTime": "2024-10-20T13:47:10.055Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1311,7 +1311,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:32.063Z",
+                      "startTime": "2024-10-20T13:47:10.888Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1344,12 +1344,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 710,
+                      "duration": 700,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:32.834Z",
+                      "startTime": "2024-10-20T13:47:11.671Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1382,12 +1382,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 710,
+                      "duration": 5308,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:33.579Z",
+                      "startTime": "2024-10-20T13:47:12.411Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1420,12 +1420,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 376,
+                      "duration": 314,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:34.330Z",
+                      "startTime": "2024-10-20T13:47:17.794Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1458,12 +1458,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 281,
+                      "duration": 304,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:34.773Z",
+                      "startTime": "2024-10-20T13:47:18.167Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1496,12 +1496,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 388,
+                      "duration": 392,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:35.236Z",
+                      "startTime": "2024-10-20T13:47:18.547Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1534,12 +1534,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 757,
+                      "duration": 724,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:35.740Z",
+                      "startTime": "2024-10-20T13:47:19.052Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1572,12 +1572,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 708,
+                      "duration": 757,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:36.537Z",
+                      "startTime": "2024-10-20T13:47:19.913Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1610,12 +1610,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 742,
+                      "duration": 898,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:37.282Z",
+                      "startTime": "2024-10-20T13:47:20.813Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1648,12 +1648,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 731,
+                      "duration": 823,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:38.059Z",
+                      "startTime": "2024-10-20T13:47:21.833Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1686,12 +1686,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 704,
+                      "duration": 1004,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:38.829Z",
+                      "startTime": "2024-10-20T13:47:22.894Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1724,12 +1724,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 703,
+                      "duration": 832,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:39.565Z",
+                      "startTime": "2024-10-20T13:47:24.018Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1762,12 +1762,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 253,
+                      "duration": 255,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:40.307Z",
+                      "startTime": "2024-10-20T13:47:25.032Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1786,9 +1786,11 @@
               "column": 5
             },
             {
-              "title": "46. POST /heartbeat as PATCH should return 500",
-              "ok": false,
-              "tags": [],
+              "title": "POST /heartbeat as PATCH should return 500 @API",
+              "ok": true,
+              "tags": [
+                "API"
+              ],
               "tests": [
                 {
                   "timeout": 30000,
@@ -1799,58 +1801,36 @@
                   "results": [
                     {
                       "workerIndex": 0,
-                      "status": "failed",
-                      "duration": 731,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m500\u001b[39m\nReceived: \u001b[31m405\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m500\u001b[39m\nReceived: \u001b[31m405\u001b[39m\n    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:537:31",
-                        "location": {
-                          "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
-                          "column": 31,
-                          "line": 537
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 535 |\u001b[39m       method\u001b[33m:\u001b[39m \u001b[32m'PATCH'\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 536 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 537 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m500\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Сервер должен возвращать 500 для PATCH\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 538 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 539 |\u001b[39m  \n \u001b[90m 540 |\u001b[39m   \u001b[90m// 47. POST /heartbeat as TRACE should return 501\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
-                            "column": 31,
-                            "line": 537
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m500\u001b[39m\nReceived: \u001b[31m405\u001b[39m\n\n\u001b[0m \u001b[90m 535 |\u001b[39m       method\u001b[33m:\u001b[39m \u001b[32m'PATCH'\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 536 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 537 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m500\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Сервер должен возвращать 500 для PATCH\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 538 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 539 |\u001b[39m  \n \u001b[90m 540 |\u001b[39m   \u001b[90m// 47. POST /heartbeat as TRACE should return 501\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:537:31\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 750,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:40.601Z",
+                      "startTime": "2024-10-20T13:47:25.359Z",
                       "attachments": [
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-50fea--as-PATCH-should-return-500-API-Tests\\trace.zip"
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-f4f89-PATCH-should-return-500-API-API-Tests\\trace.zip"
                         }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
-                        "column": 31,
-                        "line": 537
-                      }
+                      ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
-              "id": "2a02ca6dc42f8c0765eb-644c51c14c4663cae9d0",
+              "id": "2a02ca6dc42f8c0765eb-d8381df96fe13286d3f4",
               "file": "tests/api-tests.spec.js",
               "line": 533,
               "column": 7
             },
             {
-              "title": "47. POST /heartbeat as TRACE should return 501",
-              "ok": false,
-              "tags": [],
+              "title": "POST /heartbeat as TRACE should return 501 @API",
+              "ok": true,
+              "tags": [
+                "API"
+              ],
               "tests": [
                 {
                   "timeout": 30000,
@@ -1860,57 +1840,29 @@
                   "projectName": "API Tests",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "status": "failed",
-                      "duration": 756,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m501\u001b[39m\nReceived: \u001b[31m405\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m501\u001b[39m\nReceived: \u001b[31m405\u001b[39m\n    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:545:31",
-                        "location": {
-                          "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
-                          "column": 31,
-                          "line": 545
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 543 |\u001b[39m       method\u001b[33m:\u001b[39m \u001b[32m'TRACE'\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 544 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 545 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m501\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Сервер должен возвращать 501 для TRACE\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 546 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 547 |\u001b[39m    \n \u001b[90m 548 |\u001b[39m   \u001b[90m// 48. POST /secret/token (401)\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
-                            "column": 31,
-                            "line": 545
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m501\u001b[39m\nReceived: \u001b[31m405\u001b[39m\n\n\u001b[0m \u001b[90m 543 |\u001b[39m       method\u001b[33m:\u001b[39m \u001b[32m'TRACE'\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 544 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 545 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m501\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Сервер должен возвращать 501 для TRACE\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 546 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 547 |\u001b[39m    \n \u001b[90m 548 |\u001b[39m   \u001b[90m// 48. POST /secret/token (401)\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:545:31\u001b[22m"
-                        }
-                      ],
-                      "stdout": [
-                        {
-                          "text": "Это токен: c079e33c-a8e6-4d9e-ae92-7c3dc3387874\n"
-                        }
-                      ],
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 734,
+                      "errors": [],
+                      "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:43.230Z",
+                      "startTime": "2024-10-20T13:47:26.163Z",
                       "attachments": [
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-e0cf4--as-TRACE-should-return-501-API-Tests\\trace.zip"
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-3bc67-TRACE-should-return-501-API-API-Tests\\trace.zip"
                         }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
-                        "column": 31,
-                        "line": 545
-                      }
+                      ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
-              "id": "2a02ca6dc42f8c0765eb-006f6bfebee6a338c446",
+              "id": "2a02ca6dc42f8c0765eb-6ba23cb87bc322b5d7dc",
               "file": "tests/api-tests.spec.js",
-              "line": 541,
+              "line": 547,
               "column": 7
             },
             {
@@ -1926,18 +1878,14 @@
                   "projectName": "API Tests",
                   "results": [
                     {
-                      "workerIndex": 2,
+                      "workerIndex": 0,
                       "status": "passed",
-                      "duration": 793,
+                      "duration": 781,
                       "errors": [],
-                      "stdout": [
-                        {
-                          "text": "Это токен: 7d34576f-ccc7-45db-afe2-aa2bd1d40773\n"
-                        }
-                      ],
+                      "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:47.011Z",
+                      "startTime": "2024-10-20T13:47:26.960Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -1952,13 +1900,15 @@
               ],
               "id": "2a02ca6dc42f8c0765eb-3753a0383770557d8f6e",
               "file": "tests/api-tests.spec.js",
-              "line": 549,
+              "line": 561,
               "column": 7
             },
             {
-              "title": "49. POST /secret/token should return 201 for correct credentials",
-              "ok": false,
-              "tags": [],
+              "title": "POST /secret/token should return 201 for correct credentials @API",
+              "ok": true,
+              "tags": [
+                "API"
+              ],
               "tests": [
                 {
                   "timeout": 30000,
@@ -1968,59 +1918,37 @@
                   "projectName": "API Tests",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "status": "failed",
-                      "duration": 838,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m401\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:560:31",
-                        "location": {
-                          "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
-                          "column": 31,
-                          "line": 560
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 558 |\u001b[39m       headers\u001b[33m:\u001b[39m { \u001b[32m'Authorization'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'Basic '\u001b[39m \u001b[33m+\u001b[39m \u001b[33mBuffer\u001b[39m\u001b[33m.\u001b[39m\u001b[36mfrom\u001b[39m(\u001b[32m'admin:password'\u001b[39m)\u001b[33m.\u001b[39mtoString(\u001b[32m'base64'\u001b[39m) }\u001b[33m,\u001b[39m\n \u001b[90m 559 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 560 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m201\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Убедиться, что учетные данные корректны\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 561 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 562 |\u001b[39m    \n \u001b[90m 563 |\u001b[39m   \u001b[90m// 50. GET /secret/note should return 403 for invalid token\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
-                            "column": 31,
-                            "line": 560
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n\n\u001b[0m \u001b[90m 558 |\u001b[39m       headers\u001b[33m:\u001b[39m { \u001b[32m'Authorization'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'Basic '\u001b[39m \u001b[33m+\u001b[39m \u001b[33mBuffer\u001b[39m\u001b[33m.\u001b[39m\u001b[36mfrom\u001b[39m(\u001b[32m'admin:password'\u001b[39m)\u001b[33m.\u001b[39mtoString(\u001b[32m'base64'\u001b[39m) }\u001b[33m,\u001b[39m\n \u001b[90m 559 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 560 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m201\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Убедиться, что учетные данные корректны\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 561 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 562 |\u001b[39m    \n \u001b[90m 563 |\u001b[39m   \u001b[90m// 50. GET /secret/note should return 403 for invalid token\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:560:31\u001b[22m"
-                        }
-                      ],
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 721,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:49.059Z",
+                      "startTime": "2024-10-20T13:47:27.786Z",
                       "attachments": [
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-4911e-201-for-correct-credentials-API-Tests\\trace.zip"
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-9d72f-for-correct-credentials-API-API-Tests\\trace.zip"
                         }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
-                        "column": 31,
-                        "line": 560
-                      }
+                      ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
-              "id": "2a02ca6dc42f8c0765eb-db8fac1b66c5e1e1d521",
+              "id": "2a02ca6dc42f8c0765eb-df58c8e040c7bacac4e6",
               "file": "tests/api-tests.spec.js",
-              "line": 556,
+              "line": 568,
               "column": 7
             },
             {
-              "title": "50. GET /secret/note should return 403 for invalid token",
-              "ok": false,
-              "tags": [],
+              "title": "GET /secret/note should return 403 for invalid token @API",
+              "ok": true,
+              "tags": [
+                "API"
+              ],
               "tests": [
                 {
                   "timeout": 30000,
@@ -2030,57 +1958,29 @@
                   "projectName": "API Tests",
                   "results": [
                     {
-                      "workerIndex": 3,
-                      "status": "failed",
-                      "duration": 1387,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m401\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:568:31",
-                        "location": {
-                          "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
-                          "column": 31,
-                          "line": 568
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 566 |\u001b[39m       headers\u001b[33m:\u001b[39m { \u001b[32m'X-AUTH-TOKEN'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'invalid-token'\u001b[39m }\u001b[33m,\u001b[39m\n \u001b[90m 567 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 568 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m403\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Ожидаем 403 для неправильного токена\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 569 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 570 |\u001b[39m  \n \u001b[90m 571 |\u001b[39m   \u001b[90m// 51. GET /secret/note should return 401 without token\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
-                            "column": 31,
-                            "line": 568
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n\n\u001b[0m \u001b[90m 566 |\u001b[39m       headers\u001b[33m:\u001b[39m { \u001b[32m'X-AUTH-TOKEN'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'invalid-token'\u001b[39m }\u001b[33m,\u001b[39m\n \u001b[90m 567 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 568 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m403\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Ожидаем 403 для неправильного токена\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 569 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 570 |\u001b[39m  \n \u001b[90m 571 |\u001b[39m   \u001b[90m// 51. GET /secret/note should return 401 without token\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:568:31\u001b[22m"
-                        }
-                      ],
-                      "stdout": [
-                        {
-                          "text": "Это токен: b9fcc5d6-ec49-4eb9-b4c8-3f27597d8859\n"
-                        }
-                      ],
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 706,
+                      "errors": [],
+                      "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:51.345Z",
+                      "startTime": "2024-10-20T13:47:28.556Z",
                       "attachments": [
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-0c679-eturn-403-for-invalid-token-API-Tests\\trace.zip"
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-44e41-n-403-for-invalid-token-API-API-Tests\\trace.zip"
                         }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
-                        "column": 31,
-                        "line": 568
-                      }
+                      ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
-              "id": "2a02ca6dc42f8c0765eb-38bfe023aed5396871ca",
+              "id": "2a02ca6dc42f8c0765eb-764c7a3e23ebe13c72ad",
               "file": "tests/api-tests.spec.js",
-              "line": 564,
+              "line": 582,
               "column": 7
             },
             {
@@ -2096,18 +1996,14 @@
                   "projectName": "API Tests",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 0,
                       "status": "passed",
-                      "duration": 750,
+                      "duration": 715,
                       "errors": [],
-                      "stdout": [
-                        {
-                          "text": "Это токен: 74b3aaa2-8e77-4bc7-ba9d-6a22770f369b\n"
-                        }
-                      ],
+                      "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:56.136Z",
+                      "startTime": "2024-10-20T13:47:29.323Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -2122,7 +2018,7 @@
               ],
               "id": "2a02ca6dc42f8c0765eb-8a0a7605b5ad47e4e424",
               "file": "tests/api-tests.spec.js",
-              "line": 572,
+              "line": 596,
               "column": 7
             },
             {
@@ -2138,14 +2034,14 @@
                   "projectName": "API Tests",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 0,
                       "status": "passed",
-                      "duration": 1007,
+                      "duration": 396,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:58.029Z",
+                      "startTime": "2024-10-20T13:47:30.085Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -2160,7 +2056,7 @@
               ],
               "id": "2a02ca6dc42f8c0765eb-0c4a23f04311eaef6c56",
               "file": "tests/api-tests.spec.js",
-              "line": 578,
+              "line": 602,
               "column": 5
             },
             {
@@ -2176,14 +2072,14 @@
                   "projectName": "API Tests",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 0,
                       "status": "passed",
-                      "duration": 322,
+                      "duration": 273,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:59.093Z",
+                      "startTime": "2024-10-20T13:47:30.525Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -2198,12 +2094,12 @@
               ],
               "id": "2a02ca6dc42f8c0765eb-4947bb8908db4d643a49",
               "file": "tests/api-tests.spec.js",
-              "line": 588,
+              "line": 612,
               "column": 5
             },
             {
               "title": "54. POST /secret/note should return 401 without token",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -2214,19 +2110,87 @@
                   "projectName": "API Tests",
                   "results": [
                     {
-                      "workerIndex": 4,
-                      "status": "passed",
-                      "duration": 1125,
-                      "errors": [],
+                      "workerIndex": 0,
+                      "status": "failed",
+                      "duration": 11218,
+                      "error": {
+                        "message": "Error: apiRequestContext.post: getaddrinfo ENOTFOUND apichallenges.herokuapp.com\nCall log:\n  \u001b[2m- → POST https://apichallenges.herokuapp.com//secret/note\u001b[22m\n\u001b[2m  -   user-agent: Playwright/1.48.1 (x64; windows 10.0) node/20.16\u001b[22m\n\u001b[2m  -   accept: */*\u001b[22m\n\u001b[2m  -   accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m  -   content-type: application/json\u001b[22m\n\u001b[2m  -   content-length: 18\u001b[22m\n",
+                        "stack": "Error: apiRequestContext.post: getaddrinfo ENOTFOUND apichallenges.herokuapp.com\nCall log:\n  \u001b[2m- → POST https://apichallenges.herokuapp.com//secret/note\u001b[22m\n\u001b[2m  -   user-agent: Playwright/1.48.1 (x64; windows 10.0) node/20.16\u001b[22m\n\u001b[2m  -   accept: */*\u001b[22m\n\u001b[2m  -   accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m  -   content-type: application/json\u001b[22m\n\u001b[2m  -   content-length: 18\u001b[22m\n\n    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:626:36",
+                        "location": {
+                          "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
+                          "column": 36,
+                          "line": 626
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 624 |\u001b[39m \u001b[90m// 54. POST /secret/note should return 401 without token\u001b[39m\n \u001b[90m 625 |\u001b[39m   test(\u001b[32m\"54. POST /secret/note should return 401 without token\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ request }) \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 626 |\u001b[39m     \u001b[36mconst\u001b[39m response \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m request\u001b[33m.\u001b[39mpost(\u001b[32m`${URL}/secret/note`\u001b[39m\u001b[33m,\u001b[39m {\n \u001b[90m     |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 627 |\u001b[39m       data\u001b[33m:\u001b[39m { note\u001b[33m:\u001b[39m \u001b[32m\"my note\"\u001b[39m }\u001b[33m,\u001b[39m\n \u001b[90m 628 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 629 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m401\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Без токена должен быть статус 401\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
+                            "column": 36,
+                            "line": 626
+                          },
+                          "message": "Error: apiRequestContext.post: getaddrinfo ENOTFOUND apichallenges.herokuapp.com\nCall log:\n  \u001b[2m- → POST https://apichallenges.herokuapp.com//secret/note\u001b[22m\n\u001b[2m  -   user-agent: Playwright/1.48.1 (x64; windows 10.0) node/20.16\u001b[22m\n\u001b[2m  -   accept: */*\u001b[22m\n\u001b[2m  -   accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m  -   content-type: application/json\u001b[22m\n\u001b[2m  -   content-length: 18\u001b[22m\n\n\n\u001b[0m \u001b[90m 624 |\u001b[39m \u001b[90m// 54. POST /secret/note should return 401 without token\u001b[39m\n \u001b[90m 625 |\u001b[39m   test(\u001b[32m\"54. POST /secret/note should return 401 without token\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ request }) \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 626 |\u001b[39m     \u001b[36mconst\u001b[39m response \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m request\u001b[33m.\u001b[39mpost(\u001b[32m`${URL}/secret/note`\u001b[39m\u001b[33m,\u001b[39m {\n \u001b[90m     |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 627 |\u001b[39m       data\u001b[33m:\u001b[39m { note\u001b[33m:\u001b[39m \u001b[32m\"my note\"\u001b[39m }\u001b[33m,\u001b[39m\n \u001b[90m 628 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 629 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m401\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Без токена должен быть статус 401\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:626:36\u001b[22m"
+                        }
+                      ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:01:59.478Z",
+                      "startTime": "2024-10-20T13:47:30.836Z",
                       "attachments": [
                         {
                           "name": "trace",
                           "contentType": "application/zip",
                           "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-5f93c-ld-return-401-without-token-API-Tests\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
+                        "column": 36,
+                        "line": 626
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2a02ca6dc42f8c0765eb-a116e6ccc627162f7314",
+              "file": "tests/api-tests.spec.js",
+              "line": 625,
+              "column": 7
+            },
+            {
+              "title": "POST /secret/note should return 403 for invalid token @API",
+              "ok": true,
+              "tags": [
+                "API"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "API Tests",
+                  "projectName": "API Tests",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 814,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Это токен: 65a14dc8-720f-45e2-acdc-610dd07757a6\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-20T13:47:45.314Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-3251e-n-403-for-invalid-token-API-API-Tests\\trace.zip"
                         }
                       ]
                     }
@@ -2234,15 +2198,17 @@
                   "status": "expected"
                 }
               ],
-              "id": "2a02ca6dc42f8c0765eb-a116e6ccc627162f7314",
+              "id": "2a02ca6dc42f8c0765eb-9cb0c6c1dacebc77aa5d",
               "file": "tests/api-tests.spec.js",
-              "line": 601,
+              "line": 632,
               "column": 7
             },
             {
-              "title": "55. POST /secret/note should return 403 for invalid token",
+              "title": "GET /secret/note should return 200 with valid Bearer token @API",
               "ok": false,
-              "tags": [],
+              "tags": [
+                "API"
+              ],
               "tests": [
                 {
                   "timeout": 30000,
@@ -2252,119 +2218,53 @@
                   "projectName": "API Tests",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 1,
                       "status": "failed",
-                      "duration": 772,
+                      "duration": 771,
                       "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m401\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:613:31",
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m403\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m403\u001b[39m\n    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:655:31",
                         "location": {
                           "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
                           "column": 31,
-                          "line": 613
+                          "line": 655
                         },
-                        "snippet": "\u001b[0m \u001b[90m 611 |\u001b[39m       data\u001b[33m:\u001b[39m { note\u001b[33m:\u001b[39m \u001b[32m\"my note\"\u001b[39m }\u001b[33m,\u001b[39m\n \u001b[90m 612 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 613 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m403\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Неверный токен должен вернуть 403\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 614 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 615 |\u001b[39m  \n \u001b[90m 616 |\u001b[39m   \u001b[90m// 56. GET /secret/note should return 200 with valid Bearer token\u001b[39m\u001b[0m"
+                        "snippet": "\u001b[0m \u001b[90m 653 |\u001b[39m\n \u001b[90m 654 |\u001b[39m     \u001b[90m// Ожидаем успешный ответ 200 для валидного токена\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 655 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 656 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 657 |\u001b[39m\n \u001b[90m 658 |\u001b[39m    \u001b[0m"
                       },
                       "errors": [
                         {
                           "location": {
                             "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
                             "column": 31,
-                            "line": 613
+                            "line": 655
                           },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n\n\u001b[0m \u001b[90m 611 |\u001b[39m       data\u001b[33m:\u001b[39m { note\u001b[33m:\u001b[39m \u001b[32m\"my note\"\u001b[39m }\u001b[33m,\u001b[39m\n \u001b[90m 612 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 613 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m403\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Неверный токен должен вернуть 403\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 614 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 615 |\u001b[39m  \n \u001b[90m 616 |\u001b[39m   \u001b[90m// 56. GET /secret/note should return 200 with valid Bearer token\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:613:31\u001b[22m"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m403\u001b[39m\n\n\u001b[0m \u001b[90m 653 |\u001b[39m\n \u001b[90m 654 |\u001b[39m     \u001b[90m// Ожидаем успешный ответ 200 для валидного токена\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 655 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 656 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 657 |\u001b[39m\n \u001b[90m 658 |\u001b[39m    \u001b[0m\n\n\u001b[2m    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:655:31\u001b[22m"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:02:01.023Z",
+                      "startTime": "2024-10-20T13:47:54.402Z",
                       "attachments": [
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-ff051-eturn-403-for-invalid-token-API-Tests\\trace.zip"
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-d59e5-with-valid-Bearer-token-API-API-Tests\\trace.zip"
                         }
                       ],
                       "errorLocation": {
                         "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
                         "column": 31,
-                        "line": 613
+                        "line": 655
                       }
                     }
                   ],
                   "status": "unexpected"
                 }
               ],
-              "id": "2a02ca6dc42f8c0765eb-feee05997f5db90eed72",
+              "id": "2a02ca6dc42f8c0765eb-61c40cccd4327e7387b1",
               "file": "tests/api-tests.spec.js",
-              "line": 608,
-              "column": 7
-            },
-            {
-              "title": "56. GET /secret/note should return 200 with valid Bearer token",
-              "ok": false,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "API Tests",
-                  "projectName": "API Tests",
-                  "results": [
-                    {
-                      "workerIndex": 5,
-                      "status": "failed",
-                      "duration": 755,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m401\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:621:31",
-                        "location": {
-                          "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
-                          "column": 31,
-                          "line": 621
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 619 |\u001b[39m       headers\u001b[33m:\u001b[39m { \u001b[32m'Authorization'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'Bearer valid-token'\u001b[39m }\u001b[33m,\u001b[39m\n \u001b[90m 620 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 621 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Ожидаем успешный ответ с Bearer токеном\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 622 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 623 |\u001b[39m    \n \u001b[90m 624 |\u001b[39m \u001b[90m// 57. POST /secret/note with Bearer token (200)\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
-                            "column": 31,
-                            "line": 621
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n\n\u001b[0m \u001b[90m 619 |\u001b[39m       headers\u001b[33m:\u001b[39m { \u001b[32m'Authorization'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'Bearer valid-token'\u001b[39m }\u001b[33m,\u001b[39m\n \u001b[90m 620 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 621 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Ожидаем успешный ответ с Bearer токеном\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 622 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 623 |\u001b[39m    \n \u001b[90m 624 |\u001b[39m \u001b[90m// 57. POST /secret/note with Bearer token (200)\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:621:31\u001b[22m"
-                        }
-                      ],
-                      "stdout": [
-                        {
-                          "text": "Это токен: 80a75603-7315-4e74-938d-218221a9b1bc\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-10-18T20:02:03.612Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-37a0d-200-with-valid-Bearer-token-API-Tests\\trace.zip"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
-                        "column": 31,
-                        "line": 621
-                      }
-                    }
-                  ],
-                  "status": "unexpected"
-                }
-              ],
-              "id": "2a02ca6dc42f8c0765eb-4caa9b6d51535c88708f",
-              "file": "tests/api-tests.spec.js",
-              "line": 617,
+              "line": 646,
               "column": 7
             },
             {
@@ -2380,18 +2280,18 @@
                   "projectName": "API Tests",
                   "results": [
                     {
-                      "workerIndex": 6,
+                      "workerIndex": 2,
                       "status": "passed",
-                      "duration": 797,
+                      "duration": 1455,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "Это токен: 96776db1-b8ac-441d-bfb5-df97cf74d939\n"
+                          "text": "Это токен: 06c819a1-d904-429c-af8f-7dd26388ea8f\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:02:07.791Z",
+                      "startTime": "2024-10-20T13:47:57.426Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -2406,7 +2306,7 @@
               ],
               "id": "2a02ca6dc42f8c0765eb-fac9b957460f9e56358b",
               "file": "tests/api-tests.spec.js",
-              "line": 625,
+              "line": 660,
               "column": 5
             },
             {
@@ -2422,14 +2322,14 @@
                   "projectName": "API Tests",
                   "results": [
                     {
-                      "workerIndex": 6,
+                      "workerIndex": 2,
                       "status": "passed",
-                      "duration": 314,
+                      "duration": 289,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:02:09.896Z",
+                      "startTime": "2024-10-20T13:48:00.315Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -2444,13 +2344,15 @@
               ],
               "id": "2a02ca6dc42f8c0765eb-43665c14b5c6809bf851",
               "file": "tests/api-tests.spec.js",
-              "line": 638,
+              "line": 673,
               "column": 5
             },
             {
-              "title": "59. POST /todos should return 201 until maximum number of todos is reached",
+              "title": "POST /todos should return 201 until maximum number of todos is reached @API",
               "ok": false,
-              "tags": [],
+              "tags": [
+                "API"
+              ],
               "tests": [
                 {
                   "timeout": 30000,
@@ -2460,53 +2362,53 @@
                   "projectName": "API Tests",
                   "results": [
                     {
-                      "workerIndex": 6,
+                      "workerIndex": 2,
                       "status": "failed",
-                      "duration": 782,
+                      "duration": 62,
                       "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m401\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:653:31",
+                        "message": "ReferenceError: max_todos is not defined",
+                        "stack": "ReferenceError: max_todos is not defined\n    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:680:25",
                         "location": {
                           "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
-                          "column": 31,
-                          "line": 653
+                          "column": 25,
+                          "line": 680
                         },
-                        "snippet": "\u001b[0m \u001b[90m 651 |\u001b[39m       }\u001b[33m,\u001b[39m\n \u001b[90m 652 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 653 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m201\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Ожидаем успешное создание задач до достижения лимита\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 654 |\u001b[39m   }\n \u001b[90m 655 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 656 |\u001b[39m\u001b[0m"
+                        "snippet": "\u001b[0m \u001b[90m 678 |\u001b[39m \u001b[90m// 59. POST /todos maximum (201)\u001b[39m\n \u001b[90m 679 |\u001b[39m test(\u001b[32m'POST /todos should return 201 until maximum number of todos is reached @API'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ request }) \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 680 |\u001b[39m     \u001b[36mfor\u001b[39m (\u001b[36mlet\u001b[39m i \u001b[33m=\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m i \u001b[33m<\u001b[39m max_todos\u001b[33m;\u001b[39m i\u001b[33m++\u001b[39m) {\n \u001b[90m     |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 681 |\u001b[39m         \u001b[36mlet\u001b[39m response \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m request\u001b[33m.\u001b[39mpost(\u001b[32m`${URL}/todos`\u001b[39m\u001b[33m,\u001b[39m {\n \u001b[90m 682 |\u001b[39m             headers\u001b[33m:\u001b[39m {\n \u001b[90m 683 |\u001b[39m                 \u001b[32m'X-challenger'\u001b[39m\u001b[33m:\u001b[39m token  \u001b[90m// Указываем токен X-challenger\u001b[39m\u001b[0m"
                       },
                       "errors": [
                         {
                           "location": {
                             "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
-                            "column": 31,
-                            "line": 653
+                            "column": 25,
+                            "line": 680
                           },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m201\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n\n\u001b[0m \u001b[90m 651 |\u001b[39m       }\u001b[33m,\u001b[39m\n \u001b[90m 652 |\u001b[39m     })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 653 |\u001b[39m     expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m201\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// Ожидаем успешное создание задач до достижения лимита\u001b[39m\n \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 654 |\u001b[39m   }\n \u001b[90m 655 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 656 |\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:653:31\u001b[22m"
+                          "message": "ReferenceError: max_todos is not defined\n\n\u001b[0m \u001b[90m 678 |\u001b[39m \u001b[90m// 59. POST /todos maximum (201)\u001b[39m\n \u001b[90m 679 |\u001b[39m test(\u001b[32m'POST /todos should return 201 until maximum number of todos is reached @API'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ request }) \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 680 |\u001b[39m     \u001b[36mfor\u001b[39m (\u001b[36mlet\u001b[39m i \u001b[33m=\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m i \u001b[33m<\u001b[39m max_todos\u001b[33m;\u001b[39m i\u001b[33m++\u001b[39m) {\n \u001b[90m     |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 681 |\u001b[39m         \u001b[36mlet\u001b[39m response \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m request\u001b[33m.\u001b[39mpost(\u001b[32m`${URL}/todos`\u001b[39m\u001b[33m,\u001b[39m {\n \u001b[90m 682 |\u001b[39m             headers\u001b[33m:\u001b[39m {\n \u001b[90m 683 |\u001b[39m                 \u001b[32m'X-challenger'\u001b[39m\u001b[33m:\u001b[39m token  \u001b[90m// Указываем токен X-challenger\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js:680:25\u001b[22m"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-18T20:02:10.269Z",
+                      "startTime": "2024-10-20T13:48:00.682Z",
                       "attachments": [
                         {
                           "name": "trace",
                           "contentType": "application/zip",
-                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-a1b81--number-of-todos-is-reached-API-Tests\\trace.zip"
+                          "path": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\test-results\\tests-api-tests-API-challe-5bd4e-ber-of-todos-is-reached-API-API-Tests\\trace.zip"
                         }
                       ],
                       "errorLocation": {
                         "file": "C:\\Users\\alangouser\\Desktop\\HW_API_1\\HW_QA.GURU_API_1\\tests\\api-tests.spec.js",
-                        "column": 31,
-                        "line": 653
+                        "column": 25,
+                        "line": 680
                       }
                     }
                   ],
                   "status": "unexpected"
                 }
               ],
-              "id": "2a02ca6dc42f8c0765eb-5bde34f3d6f6380f66f3",
+              "id": "2a02ca6dc42f8c0765eb-a1b355a4fb9d2de8585e",
               "file": "tests/api-tests.spec.js",
-              "line": 645,
+              "line": 679,
               "column": 5
             }
           ]
@@ -2516,11 +2418,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-10-18T20:00:57.570Z",
-    "duration": 73605.524,
-    "expected": 52,
+    "startTime": "2024-10-20T13:46:27.679Z",
+    "duration": 93219.19499999999,
+    "expected": 56,
     "skipped": 0,
-    "unexpected": 7,
+    "unexpected": 3,
     "flaky": 0
   }
 }

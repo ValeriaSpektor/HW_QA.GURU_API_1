@@ -530,20 +530,32 @@ test('45. POST /heartbeat as DELETE should return 405', async ({ request }) => {
     expect(response.status()).toBe(405); // Метод DELETE не поддерживается
   });
 
-  test("46. POST /heartbeat as PATCH should return 500", async ({ request }) => {
-    const response = await request.post(`${URL}heartbeat`, {
-      method: 'PATCH',
+  test('POST /heartbeat as PATCH should return 500 @API', async ({ request }) => {
+    let response = await request.post(`${URL}/heartbeat`, {
+        headers: {
+            'X-challenger': token, // Указываем токен X-challenger
+            'X-HTTP-Method-Override': 'PATCH'  // Переопределяем метод как PATCH
+        }
     });
-    expect(response.status()).toBe(500); // Сервер должен возвращать 500 для PATCH
-  });
+
+    // Проверяем, что сервер возвращает статус 500
+    expect(response.status()).toBe(500);  
+});
+
  
   // 47. POST /heartbeat as TRACE should return 501
-  test("47. POST /heartbeat as TRACE should return 501", async ({ request }) => {
-    const response = await request.post(`${URL}heartbeat`, {
-      method: 'TRACE',
+  test('POST /heartbeat as TRACE should return 501 @API', async ({ request }) => {
+    let response = await request.post(`${URL}/heartbeat`, {
+        headers: {
+            'X-challenger': token,  // Указываем токен X-challenger
+            'X-HTTP-Method-Override': 'TRACE'  // Переопределяем метод как TRACE
+        }
     });
-    expect(response.status()).toBe(501); // Сервер должен возвращать 501 для TRACE
-  });
+
+    // Проверяем, что сервер возвращает статус 501 (метод TRACE не реализован)
+    expect(response.status()).toBe(501);
+});
+
    
   // 48. POST /secret/token (401)
   test('48. POST /secret/token should return 401 for invalid credentials', async ({ request }) => {
@@ -553,20 +565,32 @@ test('45. POST /heartbeat as DELETE should return 405', async ({ request }) => {
     expect(response.status()).toBe(401);
   });
 
-  test("49. POST /secret/token should return 201 for correct credentials", async ({ request }) => {
-    const response = await request.post(`${URL}secret/token`, {
-      headers: { 'Authorization': 'Basic ' + Buffer.from('admin:password').toString('base64') },
+  test('POST /secret/token should return 201 for correct credentials @API', async ({ request }) => {
+    let response = await request.post(`${URL}/secret/token`, {
+        headers: {
+            'X-challenger': token,  // Указываем токен X-challenger
+            'Authorization': 'Basic ' + Buffer.from('admin:password').toString('base64')  // Передаем правильные учетные данные
+        }
     });
-    expect(response.status()).toBe(201); // Убедиться, что учетные данные корректны
-  });
+
+    // Ожидаем успешный ответ 201
+    expect(response.status()).toBe(201);
+});
+
    
   // 50. GET /secret/note should return 403 for invalid token
-  test("50. GET /secret/note should return 403 for invalid token", async ({ request }) => {
-    const response = await request.get(`${URL}secret/note`, {
-      headers: { 'X-AUTH-TOKEN': 'invalid-token' },
+  test('GET /secret/note should return 403 for invalid token @API', async ({ request }) => {
+    let response = await request.get(`${URL}/secret/note`, {
+        headers: {
+            'X-challenger': token,  // Указываем токен X-challenger
+            'Authorization': 'Bearer invalid-token'  // Недействительный токен
+        }
     });
-    expect(response.status()).toBe(403); // Ожидаем 403 для неправильного токена
-  });
+
+    // Ожидаем статус 403 для недействительного токена
+    expect(response.status()).toBe(403);
+});
+
  
   // 51. GET /secret/note should return 401 without token
   test("51. GET /secret/note should return 401 without token", async ({ request }) => {
@@ -605,21 +629,32 @@ test('53. POST /secret/note should return 200 for valid note and token', async (
     expect(response.status()).toBe(401); // Без токена должен быть статус 401
   });
 
-  test("55. POST /secret/note should return 403 for invalid token", async ({ request }) => {
-    const response = await request.post(`${URL}/secret/note`, {
-      headers: { 'X-AUTH-TOKEN': 'invalid-token' },
-      data: { note: "my note" },
+  test('POST /secret/note should return 403 for invalid token @API', async ({ request }) => {
+    let response = await request.post(`${URL}/secret/note`, {
+        headers: {
+            'X-challenger': token,  // Указываем токен X-challenger
+            'Authorization': 'Bearer invalid-token'  // Недействительный токен
+        },
+        data: { note: "test note" }  // Отправляем тестовую заметку
     });
-    expect(response.status()).toBe(403); // Неверный токен должен вернуть 403
-  });
+
+    // Ожидаем статус 403 для недействительного токена
+    expect(response.status()).toBe(403);
+});
  
   // 56. GET /secret/note should return 200 with valid Bearer token
-  test("56. GET /secret/note should return 200 with valid Bearer token", async ({ request }) => {
-    const response = await request.get(`${URL}secret/note`, {
-      headers: { 'Authorization': 'Bearer valid-token' },
+  test('GET /secret/note should return 200 with valid Bearer token @API', async ({ request }) => {
+    let response = await request.get(`${URL}/secret/note`, {
+        headers: {
+            'X-challenger': token,  // Указываем токен X-challenger
+            'Authorization': 'Bearer valid-token'  // Действительный токен Bearer
+        }
     });
-    expect(response.status()).toBe(200); // Ожидаем успешный ответ с Bearer токеном
-  });
+
+    // Ожидаем успешный ответ 200 для валидного токена
+    expect(response.status()).toBe(200);
+});
+
    
 // 57. POST /secret/note with Bearer token (200)
 test('57. POST /secret/note should return 200 with valid Bearer token', async ({ request }) => {
@@ -641,17 +676,22 @@ test('58. DELETE /todos/{id} should return 200 for successful deletion', async (
 });
 
 // 59. POST /todos maximum (201)
-const max_todos = 100; // Задайте максимальное количество задач
-test("59. POST /todos should return 201 until maximum number of todos is reached", async ({ request }) => {
-  for (let i = 0; i < max_todos; i++) {
-    const response = await request.post(`${URL}/todos`, {
-      data: {
-        title: `Todo ${i}`,
-        doneStatus: false,
-      },
-    });
-    expect(response.status()).toBe(201); // Ожидаем успешное создание задач до достижения лимита
-  }
+test('POST /todos should return 201 until maximum number of todos is reached @API', async ({ request }) => {
+    for (let i = 0; i < max_todos; i++) {
+        let response = await request.post(`${URL}/todos`, {
+            headers: {
+                'X-challenger': token  // Указываем токен X-challenger
+            },
+            data: {
+                title: `Todo ${i}`,  // Создаем задачу с уникальным названием
+                doneStatus: false,
+                description: `Description for Todo ${i}`
+            }
+        });
+
+        // Ожидаем успешный ответ 201 до достижения максимального числа задач
+        expect(response.status()).toBe(201);
+    }
 });
 
 });
