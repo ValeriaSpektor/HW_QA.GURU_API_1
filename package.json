@@ -9,13 +9,13 @@
     "debug": "npx playwright test --ui",
     "test": "npx playwright test",
     "test:dev": "export NODE_ENV=auto-test npx playwright test"
-
   },
   "keywords": [],
   "author": "Valeria Spektor",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@faker-js/faker": "^9.3.0",
     "@playwright/test": "^1.48.1"
   }
 }

@@ -1,4 +1,5 @@
 import { test, expect } from "@playwright/test";
+import { faker } from '@faker-js/faker';
 
 test.describe("API challenge", () => {
     const URL = 'https://apichallenges.herokuapp.com/';
@@ -643,18 +644,67 @@ test('53. POST /secret/note should return 200 for valid note and token', async (
 });
  
   // 56. GET /secret/note should return 200 with valid Bearer token
-  test('GET /secret/note should return 200 with valid Bearer token @API', async ({ request }) => {
-    let response = await request.get(`${URL}/secret/note`, {
+  test('56. GET /secret/note (Bearer) with Faker.js', async ({ request }) => {
+    // Исправляем запрос авторизации - добавляем Content-Type и убираем пробелы из Basic Auth
+    const tokenResponse = await request.post(`${URL}secret/token`, {
         headers: {
-            'X-challenger': token,  // Указываем токен X-challenger
-            'Authorization': 'Bearer valid-token'  // Действительный токен Bearer
+            'X-CHALLENGER': token,
+            'Content-Type': 'application/json',
+            'Authorization': 'Basic '+Buffer.from('admin:password').toString('base64')
+        },
+        data: {} // Добавляем пустое тело запроса
+    });
+    
+    console.log('Token Response Status:', tokenResponse.status());
+    console.log('Token Response Headers:', await tokenResponse.headers());
+
+    // Проверяем статус
+    expect(tokenResponse.status()).toBe(201);
+
+    // Попробуем получить токен из заголовков
+    const headers = await tokenResponse.headers();
+    const bearerToken = headers['x-auth-token'] || headers['X-AUTH-TOKEN'];
+
+    if (!bearerToken) {
+        throw new Error('No auth token in response headers');
+    }
+
+    console.log('Bearer Token:', bearerToken);
+
+    // Генерация случайной заметки
+    const randomNote = faker.lorem.sentence();
+
+    // Создаем заметку с полученным Bearer токеном
+    const postResponse = await request.post(`${URL}secret/note`, {
+        headers: {
+            'X-CHALLENGER': token,
+            'Authorization': `Bearer ${bearerToken}`,
+            'Content-Type': 'application/json'
+        },
+        data: { note: randomNote }
+    });
+
+    console.log('Post Response Status:', postResponse.status());
+    
+    expect(postResponse.status()).toBe(200);
+
+    // Проверяем получение заметки
+    const getResponse = await request.get(`${URL}secret/note`, {
+        headers: {
+            'X-CHALLENGER': token,
+            'Authorization': `Bearer ${bearerToken}`
         }
     });
 
-    // Ожидаем успешный ответ 200 для валидного токена
-    expect(response.status()).toBe(200);
+    console.log('Get Response Status:', getResponse.status());
+    
+    expect(getResponse.status()).toBe(200);
+    
+    if (getResponse.status() === 200) {
+        const responseData = await getResponse.json();
+        expect(responseData.note).toBe(randomNote);
+    }
 });
-
    
 // 57. POST /secret/note with Bearer token (200)
 test('57. POST /secret/note should return 200 with valid Bearer token', async ({ request }) => {
@@ -676,23 +726,79 @@ test('58. DELETE /todos/{id} should return 200 for successful deletion', async (
 });
 
 // 59. POST /todos maximum (201)
-test('POST /todos should return 201 until maximum number of todos is reached @API', async ({ request }) => {
-    for (let i = 0; i < max_todos; i++) {
-        let response = await request.post(`${URL}/todos`, {
-            headers: {
-                'X-challenger': token  // Указываем токен X-challenger
-            },
-            data: {
-                title: `Todo ${i}`,  // Создаем задачу с уникальным названием
-                doneStatus: false,
-                description: `Description for Todo ${i}`
-            }
-        });
+test("59. Create maximum number of todos @API", async ({ request }) => {
+  try {
+      // Получаем текущий URL без слэша на конце
+      const baseUrl = URL.endsWith('/') ? URL.slice(0, -1) : URL;
+      
+      // Получаем список всех существующих задач
+      const getAllResponse = await request.get(`${baseUrl}/todos`, {
+          headers: { 'X-CHALLENGER': token }
+      });
+      
+      console.log('Getting existing todos status:', getAllResponse.status());
+      const existingTodos = await getAllResponse.json();
+      
+      // Удаляем существующие задачи
+      for (const todo of existingTodos.todos || []) {
+          const deleteResponse = await request.delete(`${baseUrl}/todos/${todo.id}`, {
+              headers: { 'X-CHALLENGER': token }
+          });
+          console.log(`Deleted todo ${todo.id} with status: ${deleteResponse.status()}`);
+      }
 
-        // Ожидаем успешный ответ 201 до достижения максимального числа задач
-        expect(response.status()).toBe(201);
-    }
+      console.log('Starting to create new todos');
+      const maxNumberOfTasks = 20;
+
+      // Создаем задачи последовательно
+      for (let i = 0; i < maxNumberOfTasks; i++) {
+          const todo = { 
+              title: `Task ${i + 1}`, 
+              description: faker.lorem.sentence(),
+              doneStatus: false
+          };
+          
+          const createResponse = await request.post(`${baseUrl}/todos`, {
+              headers: { 
+                  'X-CHALLENGER': token,
+                  'Content-Type': 'application/json'
+              },
+              data: todo
+          });
+          
+          console.log(`Creating todo ${i + 1}, status: ${createResponse.status()}`);
+          expect(createResponse.status()).toBe(201);
+      }
+
+      // Проверяем ограничение
+      console.log('Testing limit with extra task');
+      const extraTask = { 
+          title: 'Extra Task', 
+          description: 'This task should not be created',
+          doneStatus: false
+      };
+      
+      const extraTaskResponse = await request.post(`${baseUrl}/todos`, {
+          headers: { 
+              'X-CHALLENGER': token,
+              'Content-Type': 'application/json'
+          },
+          data: extraTask
+      });
+
+      expect(extraTaskResponse.status()).toBe(400);
+      
+      const errorResponse = await extraTaskResponse.json();
+      console.log('Error response:', errorResponse);
+      
+      // Проверяем сообщение об ошибке
+      expect(errorResponse.errorMessages).toContain(
+          `ERROR: Cannot add instance, maximum limit of ${maxNumberOfTasks} reached`
+      );
+      
+  } catch (error) {
+      console.error('Test failed with error:', error);
+      throw error;
+  }
 });
-
 });
-
