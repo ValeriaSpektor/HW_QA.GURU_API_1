@@ -19,7 +19,7 @@ The following screenshots show the test results from the Allure Report for the e
 ![Allure Report Status](./assets/allure_status.png)
 
 ### Detailed Overview
-![Allure Report Overview](./assets/allure_overview.png)
+(https://github.com/ValeriaSpektor/HW_QA.GURU_API_1/blob/105de23cec03861a310399d6c46a534283a6a9db/allure_overview.png)
 
 
 
