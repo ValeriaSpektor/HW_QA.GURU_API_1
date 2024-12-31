@@ -5,10 +5,10 @@
 The following screenshots show the test results from the Allure Report for the executed API tests.
 
 ### Status Overview
-![Allure Report Status](./images/allure_status.png)
+![Allure Report Status](https://github.com/ValeriaSpektor/HW_QA.GURU_API_1/blob/79ad2eeafc57e71c0345a4762e4c7e108dd70cd3/allure_status.png?raw=true)
 
 ### Detailed Overview
-![Allure Report Overview](./images/allure_overview.png)
+![Allure Report Overview](https://github.com/ValeriaSpektor/HW_QA.GURU_API_1/blob/79ad2eeafc57e71c0345a4762e4c7e108dd70cd3/allure_overview.png?raw=true)
 
 
 ### Overview
