@@ -1,7 +1,15 @@
 # API Test Automation Project
 
-## Test Results (December 31, 2024)
-![Test Results](test-results.png)
+## Test Execution Overview
+
+The following screenshots show the test results from the Allure Report for the executed API tests.
+
+### Status Overview
+![Allure Report Status](./images/allure_status.png)
+
+### Detailed Overview
+![Allure Report Overview](./images/allure_overview.png)
+
 
 ### Overview
 - **Total Tests**: 59
