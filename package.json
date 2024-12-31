@@ -1,21 +1,32 @@
 {
   "name": "hw_qa.guru_api_1",
   "version": "1.0.0",
+  "description": "API Testing Challenge with Playwright and Allure Reporting",
   "main": "index.js",
   "scripts": {
-    "allureGenerate": "allure generate --clean",
-    "allureOpen": "allure open",
-    "api": "npx playwright test --grep @list",
-    "debug": "npx playwright test --ui",
     "test": "npx playwright test",
-    "test:dev": "export NODE_ENV=auto-test npx playwright test"
+    "api": "npx playwright test --grep @API",
+    "allure:clean": "rimraf allure-results && rimraf allure-report",
+    "allure:generate": "allure generate allure-results --clean",
+    "allure:open": "allure open allure-report",
+    "test:report": "npm run allure:clean && npm run api && npm run allure:generate && npm run allure:open"
   },
-  "keywords": [],
+  "keywords": [
+    "api",
+    "testing",
+    "playwright",
+    "allure"
+  ],
   "author": "Valeria Spektor",
   "license": "ISC",
-  "description": "",
   "dependencies": {
+    "playwright": "^1.49.1"
+  },
+  "devDependencies": {
     "@faker-js/faker": "^9.3.0",
-    "@playwright/test": "^1.48.1"
+    "@playwright/test": "^1.49.1",
+    "allure-commandline": "^2.32.0",
+    "allure-playwright": "^2.15.1",
+    "rimraf": "^5.0.5"
   }
 }
